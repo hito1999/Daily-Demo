@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{		
+    list-style: none;
+}
+.Seasons{
+    float:right;
+    width:200px;
+}
+.spring,
+.summer,
+.fall,
+.winter{
+    float:right;
+    width:200px;
+    height:100px;
+    margin-top:50px;
+    background-color: cadetblue;
+    transition: 2s;
+}
+.spring:hover,
+.summer:hover,
+.fall:hover,
+.winter:hover{
+    width:300px;
+}
+.spring>div,
+.summer>div,
+.fall>div,
+.winter>div{
+    float:right;
+    width:100%;
+    height:100%;
+    background-color:rgb(150, 119, 33);
+    transition: 2s;
+}
+
+.spring:hover div,
+.summer:hover div,
+.fall:hover div,
+.winter:hover div{
+    width:0px;
+}
+.spring{
+    background-color: greenyellow;
+}
+.summer{
+    background-color: rgb(58, 191, 196);
+}
+.fall{
+    background-color:orange;
+}
+.winter{
+    background-color:rgb(122, 141, 204);
+}
+
+.Seasons>div>p{
+    position: fixed;
+    line-height: 100px;
+    font-size:24px;
+    margin-left:75px;
+}
